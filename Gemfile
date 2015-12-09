@@ -25,6 +25,9 @@ gem 'devise'
 
 gem 'bower-rails'
 
+gem 'angular-rails-templates', '0.2.0'
+gem 'sprockets', '2.12.4'
+
 # Creates realistic data for dev/test dbs
 gem 'faker'
 # Use ActiveModel has_secure_password
@@ -39,6 +42,8 @@ gem 'faker'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+
+  gem "rspec-rails"
 end
 
 group :development do
